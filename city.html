@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>What Should I Cook?</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Quattrocento" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h2>(What) Should I Cook?</h2>
+            <p>So far, we're looking for <b>keto</b>, <b>Indian</b> recipes with <b>chicken</b> and <b>cumin</b> and without <b>beef</b>.
+       </header>
+        <main>
+            <section class="food-preferences">
+                <form class="text-inputs" action="food.html">
+                    <legend>And last, where do you eat out?</legend>
+                    <label for="city">
+                        City:
+                        <input type="text" id="city" required>
+                    </label>
+                    <label for="state">
+                        State:
+                        <input type="text" id="state" required>
+                    </label>
+                    <label for="country">
+                        Country:
+                        <input type="text" id="country" required>
+                    </label>
+                    <input type="submit" value="Show me what to eat!">
+                </form>
+            </section>
+            <section class="food-choices"></section>
+        </main>
+    <!---  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="index.js"></script>
+        <script src="datastore.js"></script>-->
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>What Should I Cook?</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald|Quattrocento" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h2>(What) Should I Cook?</h2>
+            <p>Hangry and indecisive?</p>
+            <p>Stop endlessly scrolling through the same food pictures until your blood sugar is too low for you to get up and grab your phone charger!</p>
+            <p>Let's figure out what you should cook, or if you should just order takeout again.</i></p>
+            <p>Answer some easy questions. We'll show you some awesome recipes. If you still can't decide, we'll show you some of the best places to eat out instead!</p>
+        </header>
+        <main>
+            <section class="food-preferences">
+                <form id="dietary-restrictions" class="radio-buttons" action="cuisine.html">
+                    <legend>First things first, are you on any diets?</legend>
+                    <label for="no-diet">
+                            <span>I'm just hungry</span>
+                            <input type="checkbox" id="no-diet" type="diet"> 
+                    </label>
+                    <label for="Keto">
+                        <span>Keto</span>
+                        <input type="checkbox" id="Keto" type="diet"> 
+                    </label>
+                    <label for="Gluten">
+                            <span>Gluten-free</span>
+                            <input type="checkbox" id="Gluten" type="diet"> 
+                    </label>
+                    <label for="Paleo">
+                            <span>Paleo</span>
+                            <input type="checkbox" id="Paleo" type="diet"> 
+                    </label>
+                    <label for="Pescatarian">
+                            <span>Pescatarian</span>
+                            <input type="checkbox" id="Pescatarian" type="diet"> 
+                    </label>
+                    <label for="Vegan">
+                        <span>Vegan</span>
+                        <input type="checkbox" id="Vegan" type="diet"> 
+                    </label>
+                    <label for="Vegetarian">
+                        <span>Vegetarian</span>
+                        <input type="checkbox" id="Vegetarian" type="diet"> 
+                    </label>
+                    <label for="Dairy">
+                        <span>Dairy-free</span>
+                        <input type="checkbox" id="Dairy" type="diet"> 
+                    </label>
+                    <input type="submit" value="Next!">
+                </form>
+            </section>
+            <section class="food-choices"></section>
+        </main>
+    <!---  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="index.js"></script>
+        <script src="datastore.js"></script>-->
+    </body>
+</html>
